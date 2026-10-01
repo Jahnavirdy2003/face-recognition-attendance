@@ -1,0 +1,26 @@
+# Secrets — never commit real values
+.env
+
+# SSL certs/keys (self-signed dev certs — regenerate locally, don't commit)
+ssl/*.pem
+
+# Local database (holds real student names/embeddings once the app is used)
+face_attendance.db
+
+# Generated attendance exports (contain student names/roll numbers)
+Attendance/*.csv
+
+# Per-user face images and embeddings captured at registration time
+static/faces/
+static/embeddings/
+static/temp_embeddings/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

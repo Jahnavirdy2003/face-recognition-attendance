@@ -1,0 +1,13 @@
+flask
+opencv-python
+numpy
+pandas
+torch
+torchvision
+facenet-pytorch
+Pillow
+scikit-learn
+face-recognition
+mysql-connector-python
+pytz
+python-dotenv
